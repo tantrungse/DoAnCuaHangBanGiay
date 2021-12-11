@@ -1,0 +1,119 @@
+.carousel-item {
+    height: 39.75rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #777;
+}
+
+.btn-color {
+    background-color: #fd7e14;
+}
+
+.slide1 {
+    position: absolute;
+    top: 430px;
+    left: 63%;
+}
+
+.slide2 {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+}
+
+.slide3 {
+    position: absolute;
+    top: 32%;
+    left: 68%;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+}
+
+.banner-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-category {
+    height: 50px;
+    background: white;
+    min-width: 180px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-category a {
+    display: block;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.banner-category a:hover {
+    color: rgb(206, 127, 140);
+}
+
+.new_arrivals_title h2::after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    bottom: -70%;
+    transform: translate(-50%, -50%);
+    background-color: #198754;
+    width: 15%;
+    height: 0.4rem;
+    z-index: 1;
+}
+
+.love {
+    margin-left: 26%;
+    margin-right: 7%;
+}
+
+.cart {
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card img{
+    height: calc(100vh / 2.24);
+}
+
+.slick-prev::before, .slick-next::before{
+    color: black;
+}
+
+.love-purchase {
+    margin-left: 28%;
+    margin-right: 0;
+}
+
+.love-purchase i {
+    font-size: 19px;
+}
+
+
+
+

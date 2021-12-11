@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/trangchu.css">
+    <title>Trang Chủ</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold p-1 border border-4 border-success text-success" href="trangchu.html">NTV Shoe Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active fw-bold text-success" aria-current="page" href="trangchu.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link fw-bold text-success" aria-current="page" href="trangchu.html">
+                            Sản phẩm
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link fw-bold text-success" aria-current="page" href="trangchu.html">
+                            Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link fw-bold text-success" aria-current="page" href="trangchu.html">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li class="nav-item fs-6 me-2">
+                        <a class="nav-link text-success" aria-current="page" href="trangchu.html">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-6 me-2">
+                        <a class="nav-link text-success" aria-current="page" href="trangchu.html">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" aria-current="page" href="trangchu.html">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- carousel -->
+    <div id="myCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(images/xmas_advert.jpg);">
+                <div class="container slide1">
+                    <h1>Sale đến 70%</h1>
+                    <button class="btn btn-lg btn-color">Mua ngay</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(images/man_advert.jpg);">
+                <div class="container slide2">
+                    <h1>Giày Nam Cao Cấp</h1>
+                    <p class="fs-5">Giá chỉ từ 150K</p>
+                    <button class="btn btn-lg btn-color">Mua ngay</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(images/woman_advert.jpg);">
+                <div class="container slide3">
+                    <h1 class="text-light">Thế giới guốc nữ</h1>
+                    <button class="btn btn-lg btn-color">Mua ngay</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="banner-item align-item-center" style="background-image: url(images/man_banner.jpg);">
+                        <div class="banner-category">
+                            <a href="#">NAM</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="banner-item align-item-center" style="background-image: url(images/accessories_banner.jpg);">
+                        <div class="banner-category">
+                            <a href="#">PHỤ KIỆN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="banner-item align-item-center" style="background-image: url(images/woman_banner.jpg);">
+                        <div class="banner-category">
+                            <a href="#">NỮ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hàng mới về -->
+    <div class="new-arrivals mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="new_arrivals_title">
+                        <h2>Hàng mới về</h2>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/GiayTheThaoNamBiti'sHunterStreet.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nam Biti's Hunter Street "CÒN-GÌ-DÙNG-ĐÓ" Co...</h5>
+                                <p>Nam</p>
+                                <p class="card-text text-danger">320.000đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/bitisNu_StreetFestive.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nữ Biti's Hunter Street Festive Low-Cut Rose G...</h5>
+                                <p>Nữ</p>
+                                <p class="card-text text-danger">715.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/GiayTheThaoNamBitisHunterX.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nam Biti's Hunter Street "CÒN-GÌ-DÙNG-ĐÓ" Co...</h5>
+                                <p>Nam</p>
+                                <p class="card-text text-danger">899.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/GiayTheThaoNuBitisHunterXZCollectionInOrange.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nữ Biti’s Hunter X Z Collection InOrange DSW...</h5>
+                                <p>Nữ</p>
+                                <p class="card-text text-danger">1.199.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/BitisHunterXZMIDNIGHTBLACKMID.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nam Biti’s Hunter X Z MIDNIGHT BLACK MID - TO...</h5>
+                                <p>Nam</p>
+                                <p class="card-text text-danger">1.199.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/BitisHunterLayeredUpper.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Cao Cấp Nữ Biti's Hunter Layered Upper DSWH0280...</h5>
+                                <p>Nữ</p>
+                                <p class="card-text text-danger">845.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/BitisHunterXZCollectionInGreenZ.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nam Biti’s Hunter X Z Collection InGreenZ DSMH0630...</h5>
+                                <p>Nam</p>
+                                <p class="card-text text-danger">1.199.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/BitisHunterXCDGDColletion.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Giày Thể Thao Nữ Biti's Hunter X "CÒN-GÌ-DÙNG-ĐÓ" Collection -...</h5>
+                                <p>Nữ</p>
+                                <p class="card-text text-danger">899.000 đ</p>
+                                <a href="#" class="btn btn-success">Xem chi tiết</a>
+                                <div class="love-purchase d-inline">
+                                    <i class="far fa-heart me-2"></i>
+                                    <i class="fas fa-cart-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
