@@ -1,0 +1,79 @@
+footer {
+    border: 1px solid black;
+}
+
+.title {
+    width: 73%;
+    font-size: 23px;
+}
+
+.info {
+    font-size: 15px;
+}
+
+.media {
+    color: gray;
+}
+
+.fast-access {
+    margin-left: 65px;
+}
+
+.policy {
+    margin-left: 20px;
+}
+
+.ways-to-pay {
+    margin-left: 20px;
+}
+
+.verrified {
+    margin-left: 20px;
+}
+
+.line {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 0.35rem;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card {
+    box-shadow: 0 0 0 1px #E2E9ED;
+    transition: 0.2s all;
+}
+
+.card:hover {
+    box-shadow: 0 8px 50px 1px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.size-number {
+    cursor: pointer;
+}
+
+.size-number:hover {
+    background-color: black;
+    color: white;
+}
+
+.color-name {
+    cursor: pointer; 
+}
+
+.fa-facebook:hover {
+    color: rgb(74, 74, 218);
+}
+
+.fa-instagram:hover {
+    color: purple;
+}
+
+.fa-tiktok:hover {
+    color: white;
+}

@@ -233,3 +233,7 @@ form span {
     text-transform: uppercase;
     margin-bottom: 2rem;
   } 
+
+.product-detail img {
+  border: 1px solid black;
+}

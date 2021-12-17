@@ -70,16 +70,12 @@
     color: rgb(206, 127, 140);
 }
 
-.new_arrivals_title h2::after {
-    content: " ";
-    position: absolute;
-    left: 50%;
-    bottom: -70%;
-    transform: translate(-50%, -50%);
-    background-color: #198754;
-    width: 15%;
-    height: 0.4rem;
-    z-index: 1;
+.line {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 0.35rem;
 }
 
 .love {
@@ -97,8 +93,37 @@
     font-size: 15px;
 }
 
+.card {
+    box-shadow: 0 0 0 1px #E2E9ED;
+    transition: 0.2s all;
+}
+
+.card:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px 1px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
 .card img{
     height: calc(100vh / 2.24);
+}
+
+.new-arrival {
+    height: calc(100vh / 2.24);
+    z-index: -1;
+}
+
+.new_arrivals_label {
+    position: relative;
+    bottom: 17rem;
+    left: 1rem;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 3px;
+    font-weight: bold;
+    z-index: 0;
 }
 
 .slick-prev::before, .slick-next::before{
@@ -112,4 +137,89 @@
 
 .love-purchase i {
     font-size: 19px;
+}
+
+.review {
+    margin-top: 85px;   
+}
+
+.review1, .review2, .review3 {
+    border: 1px solid gray;
+}
+
+.avatar img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Brand Section */
+.brand-section {
+    margin-top: 85px;
+}
+ 
+.brand-item img {
+    height: 12rem;
+    width: 12rem;
+} 
+
+.brand-item {
+    height: 12rem;
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bi1 {
+    float: right;
+}
+
+.bi3 {
+    float: left;
+}
+
+/* footer */
+footer {
+    border: 1px solid black;
+}
+
+.title {
+    width: 73%;
+    font-size: 23px;
+}
+
+.info {
+    font-size: 15px;
+}
+
+.media {
+    color: gray;
+}
+
+.fast-access {
+    margin-left: 65px;
+}
+
+.policy {
+    margin-left: 20px;
+}
+
+.ways-to-pay {
+    margin-left: 20px;
+}
+
+.verrified {
+    margin-left: 20px;
+}
+
+.fa-facebook:hover {
+    color: rgb(74, 74, 218);
+}
+
+.fa-instagram:hover {
+    color: purple;
+}
+
+.fa-tiktok:hover {
+    color: white;
 }
