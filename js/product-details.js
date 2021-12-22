@@ -1,13 +1,2 @@
 let large = document.getElementById("large").firstChild;
-let thumbs = document.querySelectorAll('.thumbnail');
-
-for(var i=0; i<thumbs.length; i++) {
-    thumbs[i].addEventListener('click', function() {
-        large.src = document.getElementById(thumbs[i].firstElementChild.id).src;
-        
-    });
-}
-
-for(var i=0; i<thumbs.length; i++) {
-    console.log(thumbs[i].src);
-}
+// document.getElementById('img1').setAttribute(src, "/images/betrai/betrai1/betrai1.2.jpg");

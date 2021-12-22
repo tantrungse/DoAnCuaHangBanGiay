@@ -1,4 +1,4 @@
-$('.card-group').slick({
+$('.apply-slick').slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -33,3 +33,15 @@ $('.card-group').slick({
         // instead of a settings object
     ]
 });
+
+function login() {
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    if(email != "customer@gmail.com" || password != "customer") { 
+        alert("Email hoặc Password không hợp lệ !");       
+    }
+    else {
+        alert("Đăng nhập thành công !"); 
+        window.location.assign("trangchu-dangnhap.html");
+    }
+}
