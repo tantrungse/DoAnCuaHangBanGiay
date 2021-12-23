@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/giohang.css"> 
+
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold p-1 border border-4 border-success text-success" href="trangchu.html">NTV Shoe Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active fw-bold text-success" aria-current="page" href="/trangchu.html">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle fw-bold text-success" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản phẩm
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="/product/product-nam/product-nam-page1.html">Giày Nam</a></li>
+                                <li><a class="dropdown-item" href="/product/product-nu/product-nu-page1.html">Giày Nữ</a></li>
+                                <li><a class="dropdown-item" href="/product-phukien.html">Phụ kiện</a></li>
+                                <li><a class="dropdown-item" href="/product/product-betrai/product-betrai-page1.html">Bé Trai</a></li>
+                                <li><a class="dropdown-item" href="/product/product-begai/product-begai-page1.html">Bé Gái</a></li>
+                              </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link fw-bold text-success" aria-current="page" href="/gioithieu.html">
+                            Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link fw-bold text-success" aria-current="page" href="#contact">
+                            Liên hệ
+                        </a>
+                    </li>
+                    <li class="nav-item fs-6 me-2">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle fw-bold text-success" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                               <i class="fas fa-search"></i>
+                            </a>
+                                                    
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <li>
+                                  <form style="width: 18rem;">
+                                      <div class="input-group">
+                                          <input type="text" class="form-control"  placeholder="Tìm kiếm sản phẩm">
+                                          <button class="input-group-text" type="button" style="background-color: #6f42c1;">
+                                              <i class="fas fa-search" style="color: whitesmoke;"></i>
+                                          </button>
+                                      </div>
+                                  </form>
+                              </li>
+                              <li><a class="dropdown-item" href="#">Giày Nam</a></li>
+                              <li><a class="dropdown-item" href="#">Giày Nữ</a></li>    
+                              <li><a class="dropdown-item" href="#">Bé Trai</a></li>
+                              <li><a class="dropdown-item" href="#">Bé Gái</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item fs-6 me-2">
+                        <a class="nav-link text-success" aria-current="page" href="#">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" aria-current="page" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <div class="intro-section mt-5">
+        <div class="container">
+            <div class="row" style="background-color: rgb(236, 226, 226);">
+                <div class="col">
+                    <div class="path">
+                        <i class="fas fa-home"></i>
+                        <a href="trangchu_customer.html" class="text-decoration-none">
+                            <p class="d-inline fw-bold text-dark">Trang chủ &nbsp</p>
+                        </a>
+                        <i class="fas fa-chevron-right text-dark"> &nbsp</i>
+                        <p class="d-inline">Giỏ hàng</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-11 bg-success" style="margin-left: auto; margin-right: auto;">
+                    <div class="tittle">
+                        <p class="d-inline text-light fw-bold product">Sản phẩm</p>
+                        <p class="d-inline text-light fw-bold quantity">Số lượng</p>
+                        <p class="d-inline text-light fw-bold total">Tổng tiền</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row cart-item mt-2">
+                <div class="col-lg-6" style="margin-left: 3rem;">
+                    <div class="pics mb-2">
+                        <img src="images/GiayTheThaoNamBitisHunterXZCollectionInBlack.jpg">
+                        <div class="d-inline-block">
+                            <span>Giày Thể Thao Nam Biti’s Hunter X Z Collection InBlack</span>
+                            <br>
+                            <span class="fw-bold price">
+                                720.000vnd
+                            </span>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 ms-2 me-5 ps-0">
+                    <div class="number-stepper cart-row mb-2">
+                        <input class="quantity-input mt-4 border border-dark" type="number" value="1" min="1" max="100">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 mt-4 ms-4 ps-0">
+                    <p class="d-inline me-4">720.000vnd</p>
+                    <button class="btn remove" type="button">
+                        Hủy
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="row cart-item mt-2">
+                <div class="col-lg-6" style="margin-left: 3rem;">
+                    <div class="pics mb-2">
+                        <img src="images/BitisHunterXStrawberryPunch.jpg">
+                        <div class="d-inline-block">
+                            <span>Giày Thể Thao Nữ Biti's Hunter X Strawberry Punch</span>
+                            <br>
+                            <span class="fw-bold price">
+                                850.500vnd
+                            </span>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 ms-2 me-5 ps-0">
+                    <div class="number-stepper cart-row mb-2">
+                        <input class="quantity-input mt-4 border border-dark" type="number" value="1" min="1" max="100">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 mt-4 ms-4 ps-0">
+                    <p class="d-inline me-4">850.500vnd</p>
+                    <button class="btn remove" type="button">
+                        Hủy
+                    </button>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-2 px-0" style="margin-left: 70%;">
+                    <div class="line mb-3 bg-success"></div>
+                </div>
+                <h5 class="d-inline total-price" style="margin-left: 69.5%;">Tổng: 1570500vnd</h5>
+            </div>
+        </div>
+    </div>
+            
+
+            
+
+    <!-- Footer -->
+    <footer id="contact" class="mt-5" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo mt-3">
+                        <a href="#header" class="text-decoration-none">
+                            <p class="border border-4 fw-bold text-center text-light title">NTV Shoe Store</p>
+                        </a>
+                        <i class="fas fa-map-marker-alt text-light"></i>
+                        <p class="d-inline text-light info">16 Trần Hưng Đạo, phường 15, quận 10, Tp. Hồ Chí Minh</p><br>
+                        <i class="fas fa-phone-alt mt-3 text-light"></i>
+                        <p class="d-inline text-light info">&nbsp (+84) 123456789</p><br> 
+                        <i class="fas fa-envelope mt-3 text-light"></i>
+                        <p class="d-inline text-light info">&nbsp ntvshoestore@gmail.me</p><br> 
+                        <a href="https://facebook.com/" target="_blank" class="text-decoration-none">
+                            <i class="fab fa-2x fa-facebook mt-4 me-3 media"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="text-decoration-none">
+                            <i class="fab fa-2x fa-instagram me-3 media"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/vi-VN//" target="_blank" class="text-decoration-none">
+                            <i class="fab fa-2x fa-tiktok media"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="fast-access mt-3">
+                        <h5 class="text-light">Sản phẩm</h5>
+                        <div class="line bg-light ms-0"></div>
+                        <i class="fas fa-chevron-right mt-4 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Giày Nam
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Giày Nữ
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Phụ kiện
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Bé Trai
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Bé Gái
+                        </p> <br>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="policy mt-3">
+                        <h5 class="text-light">Chính sách</h5>
+                        <div class="line bg-light ms-0"></div>
+                        <i class="fas fa-chevron-right mt-4 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Bảo mật thanh toán
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Bảo mật thông tin cá nhân
+                        </p> <br>
+
+                        <i class="fas fa-chevron-right mt-3 text-light"></i>
+                        <p class="d-inline text-light" style="font-size: 15px;">
+                            Giải quyết khiếu nại
+                        </p> <br>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="ways-to-pay mt-3">
+                        <h5 class="text-light">Phương thức thanh toán</h5>
+                        <div class="line bg-light ms-0 mb-3"></div>
+                        <div class="visa d-inline me-2 mb-3">
+                            <img src="/images/visa.png" height=15% width=15%>
+                        </div>
+                        <div class="visa d-inline me-2">
+                            <img src="/images/mastercard.jpg" height=15% width=15%>
+                        </div>
+                        <div class="visa d-inline me-2">
+                            <img src="/images/jcb.png" height=15% width=15%>
+                        </div>
+                        <div class="visa d-inline me-2">
+                            <img src="/images/cash.jpg" height=15% width=15%>
+                        </div>
+                        <div class="visa d-inline me-2">
+                            <img src="/images/atm.png" height=15% width=15%>
+                        </div>
+                    </div>
+
+                    <div class="verrified mt-4">
+                        <h5 class="text-light">Chứng nhận bởi</h5>
+                        <div class="line bg-light ms-0 mb-3"></div>
+                        <div>
+                            <img src="/images/logobocongthuong.png" height=85% width=85%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col mt-5">
+                    <p class="text-light">Bản quyền thuộc về NTV Shoe Store</p>
+                </div>
+                <div class="col mt-5">
+                    <p class="text-light" style="float: right;">Website được thiết kế bởi nhóm NTV</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>   
+    <script src="js/shopping-cart.js" async></script>
+</body>
+</html>

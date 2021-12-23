@@ -1,0 +1,83 @@
+footer {
+    border: 1px solid black;
+}
+
+.title {
+    width: 73%;
+    font-size: 23px;
+}
+
+.info {
+    font-size: 15px;
+}
+
+.media {
+    color: gray;
+}
+
+.fast-access {
+    margin-left: 65px;
+}
+
+.policy {
+    margin-left: 20px;
+}
+
+.ways-to-pay {
+    margin-left: 20px;
+}
+
+.verrified {
+    margin-left: 20px;
+}
+
+.fa-facebook:hover {
+    color: rgb(74, 74, 218);
+}
+
+.fa-instagram:hover {
+    color: purple;
+}
+
+.fa-tiktok:hover {
+    color: white;
+}
+
+.product {
+    margin-right: 48%;
+}
+
+.quantity {
+    margin-right: 18%;
+}
+
+.pics img{
+    height: 5rem;
+}
+
+.fa-trash {
+    color: gray;
+}
+
+.line {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 0.35rem;
+}
+
+/* number stepper */
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.remove {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+
+
+
+
