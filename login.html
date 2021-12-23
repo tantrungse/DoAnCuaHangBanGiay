@@ -53,9 +53,28 @@
                         </a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link fw-bold text-success" aria-current="page" href="#contact">
-                            Liên hệ
-                        </a>
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle fw-bold text-success" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                               <i class="fas fa-search"></i>
+                            </a>
+                                                    
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                              <li>
+                                  <form style="width: 18rem;">
+                                      <div class="input-group">
+                                          <input type="text" class="form-control"  placeholder="Tìm kiếm sản phẩm">
+                                          <button class="input-group-text" type="button" style="background-color: #6f42c1;">
+                                              <i class="fas fa-search" style="color: whitesmoke;"></i>
+                                          </button>
+                                      </div>
+                                  </form>
+                              </li>
+                              <li><a class="dropdown-item" href="#">Giày Nam</a></li>
+                              <li><a class="dropdown-item" href="#">Giày Nữ</a></li>    
+                              <li><a class="dropdown-item" href="#">Bé Trai</a></li>
+                              <li><a class="dropdown-item" href="#">Bé Gái</a></li>
+                            </ul>
+                          </div>
                     </li>
                     <li class="nav-item fs-6 me-2">
                         <a class="nav-link text-success" aria-current="page" href="login.html">

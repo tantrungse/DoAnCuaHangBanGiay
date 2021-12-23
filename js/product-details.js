@@ -1,5 +1,9 @@
-const thumbnails = document.querySelectorAll(".product-detail img");
+var large = document.querySelector(".main img");
 
-thumbnails.forEach(function(thumbnail) {
-    thumbnail.setAttribute(border, '1px solid black;');
-});
+var thumbs = document.querySelectorAll('.thumbnail');
+
+for(var i=0; i<thumbs.length; i++) {
+    thumbs[i].addEventListener('click', function(e){
+        large.src = this.getElementsByTagName('img')[0].src;
+    }, false);
+}
